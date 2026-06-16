@@ -35,7 +35,6 @@ public class EmployeeServiceImpl {
 
         employeeRepository.saveAll(employeeList);
     }
-
     public List<Employee> findAll(){
         return employeeRepository.findAll();
     }
